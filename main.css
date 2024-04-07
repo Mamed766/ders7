@@ -1,0 +1,138 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.window {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #7fd2ca;
+}
+
+.container {
+  width: 50rem;
+  height: 40rem;
+  background-color: #fff;
+  border: 10px solid #838383;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+/* BTN SECTION */
+.container--btn {
+  display: flex;
+  height: 3rem;
+  width: 100%;
+  background-color: #d9d9d9;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.container--btn__btns {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.container--btn__btns button {
+  border: 1px solid #e3e3e3;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  height: 0.9rem;
+}
+
+.container--btn__red {
+  background-color: #fe5c51;
+}
+
+.container--btn__yellow {
+  background-color: #ffbe24;
+}
+
+.container--btn__green {
+  background-color: #00cc32;
+}
+
+/* CONTAINER HEAD */
+.container__content {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+}
+
+.container--head {
+  display: flex;
+
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.container--head__first,
+.container--head__second {
+  background-color: #ff4843;
+  height: 5rem;
+}
+
+.container--head__first {
+  width: 10rem;
+  flex-grow: 1;
+}
+
+.container--head__second {
+  width: 14rem;
+}
+/* CONTAINER BODY */
+.container--body {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.container--body__yellow {
+  background-color: #ffa930;
+  height: 19rem;
+  width: 17rem;
+}
+
+.container--body__pink--first,
+.container--body__pink--second {
+  height: 8rem;
+  width: 30rem;
+}
+
+.container--body__pink--first {
+  background-color: #9c0579;
+}
+
+.container--body__pink--second {
+  background-color: #9c0579;
+  margin-top: 1.5rem;
+}
+/* CONTAINER FOOTER */
+.contianer--footer {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contianer--footer__blue--first,
+.contianer--footer__blue--third {
+  width: 50%;
+}
+.contianer--footer__blue--second {
+  width: 70%;
+  flex-grow: 1;
+}
+.contianer--footer div {
+  background-color: #00778f;
+
+  height: 6rem;
+}
