@@ -48,8 +48,10 @@ button {
 button:hover i {
   opacity: 0.6;
   bottom: 0;
+  transform: translate(-50%, calc(-19% + 1.2px));
   visibility: inherit;
 }
+
 i {
   position: absolute;
   font-size: 10px;
